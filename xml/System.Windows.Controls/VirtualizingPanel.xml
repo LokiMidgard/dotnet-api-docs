@@ -763,7 +763,7 @@
       <Docs>
         <summary>Gets a value that identifies the <see cref="T:System.Windows.Controls.ItemContainerGenerator" /> for this <see cref="T:System.Windows.Controls.VirtualizingPanel" />.</summary>
         <value>The <see cref="T:System.Windows.Controls.ItemContainerGenerator" /> for this <see cref="T:System.Windows.Controls.VirtualizingPanel" />.</value>
-        <remarks>To be added.</remarks>
+        <remarks>Before you can call this property, you need to call <see cref="T:System.Windows.Controls.Panel.InternalChildren" />. Otherwise this property will return <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="OnClearChildren">
